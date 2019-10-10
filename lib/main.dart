@@ -15,10 +15,11 @@ class Home extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
-          Container(
-            padding: EdgeInsets.all(20.0),
-            color: Colors.cyan,
-            child: Center(
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              padding: EdgeInsets.all(20.0),
+              color: Colors.cyan,
               child: Text(
                 "One",
                 style: TextStyle(
@@ -28,29 +29,35 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
-          Container(
-            padding: EdgeInsets.all(20.0),
-            color: Colors.pinkAccent,
-            child: Center(
-              child: Text(
-                "Two",
-                style: TextStyle(
-                  fontSize: 30.0,
-                  fontFamily: "HeptaSlab",
-                  fontWeight: FontWeight.bold
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              padding: EdgeInsets.all(20.0),
+              color: Colors.pinkAccent,
+              child: Center(
+                child: Text(
+                  "Two",
+                  style: TextStyle(
+                    fontSize: 30.0,
+                    fontFamily: "HeptaSlab",
+                    fontWeight: FontWeight.bold
+                  ),
                 ),
               ),
             ),
           ),
-          Container(
-            padding: EdgeInsets.all(20.0),
-            color: Colors.amber,
-            child: Center(
-              child: Text(
-                "Three",
-                style: TextStyle(
-                  fontSize: 30.0,
-                  fontFamily: "HeptaSlab",
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              padding: EdgeInsets.all(20.0),
+              color: Colors.amber,
+              child: Center(
+                child: Text(
+                  "Three",
+                  style: TextStyle(
+                    fontSize: 30.0,
+                    fontFamily: "HeptaSlab",
+                  ),
                 ),
               ),
             ),
@@ -60,7 +67,7 @@ class Home extends StatelessWidget {
             children: <Widget>[
               Container(
                 child: Text(
-                  "Hey bro",
+                  "My Name is Mikey",
                   style: TextStyle(
                     fontFamily: "HeptaSlab",
                     fontSize: 20,
@@ -70,7 +77,7 @@ class Home extends StatelessWidget {
               ),
               Container(
                 child: Text(
-                  "My Name is Mikey",
+                  "Hey bro",
                   style: TextStyle(
                     fontFamily: "HeptaSlab",
                     fontSize: 20,
