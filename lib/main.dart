@@ -13,7 +13,10 @@ class Home extends StatelessWidget {
       ),
       body: Row(
         children: <Widget>[
-          Image.asset(""),
+          Expanded(
+            child: Image.asset("assets/baby.jpg"),
+            flex: 3
+          ),
           Expanded(
             flex: 6,
             child: Container(
