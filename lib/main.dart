@@ -11,7 +11,35 @@ class Home extends StatelessWidget {
         title: Text('Mike is awesome'),
         centerTitle: true,
       ),
-      body: Container(),
+      body: Row(
+        children: <Widget>[
+          Image.asset(""),
+          Expanded(
+            flex: 6,
+            child: Container(
+              padding: EdgeInsets.all(12.0),
+              color: Colors.cyan,
+              child: Text("1"),
+            ),
+          ),
+          Expanded(
+            flex: 1,
+            child: Container(
+              padding: EdgeInsets.all(12.0),
+              color: Colors.pinkAccent,
+              child: Text("2"),
+            ),
+          ),
+          Expanded(
+            flex: 2,
+            child: Container(
+              padding: EdgeInsets.all(12.0),
+              color: Colors.amber,
+              child: Text("3"),
+            ),
+          ),
+        ],
+      ),
       floatingActionButton: FloatingActionButton(
         child: Text('Click'),
         onPressed: () {},
